@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD7C7C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create your CV"
+        android:textAlignment="center"
+        android:textColor="#B34A4A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_marginTop="50dp"
+        android:hint="Name"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Age"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Job"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Phone Number"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="E-mail"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B34A4A"
+        android:text="Create"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
